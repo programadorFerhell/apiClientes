@@ -5,6 +5,6 @@
 	define('DB_HOSTNAME', 'localhost'); 
 	define('DB_DATABASE', 'Magna'); 
 	define('DB_USERNAME', 'banco_dev');
-	define('DB_PASSWORD', 'mudar123');
+	define('DB_PASSWORD', '*********');
 
 ?> 
