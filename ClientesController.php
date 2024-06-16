@@ -337,7 +337,7 @@
                 $clientes = $stmt->fetchAll(PDO::FETCH_ASSOC); 
 
                 return json_encode($clientes);
-            } catch (\Throwable $th) {
+            } catch (\Exception $e) {
                 http_response_code(400);
                 return json_encode(["error" => $e->getMessage()]);
             }
